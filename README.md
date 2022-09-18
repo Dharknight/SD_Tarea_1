@@ -15,7 +15,10 @@ Sistema de Caché distribuido con Redis
 ```
 	$sudo docker-compose up --build
 ```
-***La siguiente dirección es la que se debe utilizar para mandar peticiones tipo POST a través de algún software, curl o algúna interfaz desarrollada:***
+**La siguiente dirección es la que se debe utilizar para mandar peticiones tipo POST a través de algún software, curl o algúna interfaz desarrollada:**
 ```
 	http://localhost:3000/inventory/search?q=a
 ```
+**Cabe destacar que las imágenes utilizadas para los servicios son las siguientes:** 
+	Postgres -> docker.io/bitnami/postgresql:11
+	Redis -> redis:6.2.6
