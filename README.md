@@ -19,6 +19,8 @@ Sistema de Caché distribuido con Redis
 ```
 	http://localhost:3000/inventory/search?q=a
 ```
-**Cabe destacar que las imágenes utilizadas para los servicios son las siguientes:** 
+**Cabe destacar que las imágenes utilizadas para los servicios son las siguientes:**
+```
 	Postgres -> docker.io/bitnami/postgresql:11
 	Redis -> redis:6.2.6
+```
