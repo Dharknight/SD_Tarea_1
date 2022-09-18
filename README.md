@@ -14,6 +14,6 @@ Sistema de Caché distribuido con Redis
 **Correr el archivo docker compose en la carpeta instalada:**
 ```
 	$sudo docker-compose up --build
-  
+```
 <p>La siguiente dirección es la que se debe utilizar para mandar peticiones tipo POST a través de algún software, curl o algúna interfaz desarrollada</p
   http://localhost:3000/inventory/search?q=a
